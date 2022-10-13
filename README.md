@@ -1,4 +1,4 @@
-## Stock tracking app
+## Crypto tracking app
 
 > Ronin-Finance is an app used to track the top 25 cryptocurrencies. The user can search any cryptothey desire and check out real time data.. This can be used to look at how the crypto market is performing live with data fetched from the [Coingecko API](https://www.coingecko.com/en/api).
 
@@ -20,7 +20,7 @@ Click [here](https://ronin-finance.netlify.app/) for the live demo
 
 # Video presentation
 
-![video]()
+[video](https://www.loom.com/share/de9aaebc85ec483994ef918a69575c41)
 
 
 ## Getting Started
