@@ -76,7 +76,6 @@ i {
   color: #dbe9b7;
 }
 
-
 #stock-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -89,6 +88,16 @@ i {
 #stock-container:nth-child(4n + 1),
 #stock-container:nth-child(4n + 4) {
   background-color: #ae4288;
+}
+
+.btn {
+  position: fixed;
+  right: 0%;
+  bottom: 5rem;
+  padding: 0.5rem;
+  background-color: #ef9f9f;
+  border-radius: 5px;
+  border: 1px solid #f00;
 }
 
 .stock {

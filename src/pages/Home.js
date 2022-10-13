@@ -30,6 +30,7 @@ const Home = () => {
         </Navbar>
       </div>
       <div id="cont">
+        <button type="button" className="btn" onClick={() => { window.scrollTo({ top: 0, left: 0, behaviour: 'smooth' }); }}>top &uarr;</button>
         <h1>Real time data of the top 50 cryptocurrencies</h1>
         <div id="stock-container">
           <>
