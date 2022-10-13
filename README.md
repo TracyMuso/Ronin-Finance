@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+## Crypto tracking app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Ronin-Finance is an app used to track the top 25 cryptocurrencies. The user can search any cryptothey desire and check out real time data.. This can be used to look at how the crypto market is performing live with data fetched from the [Coingecko API](https://www.coingecko.com/en/api).
 
-## Available Scripts
+![](https://img.shields.io/badge/Microverse-blueviolet).
 
-In the project directory, you can run:
+<img src="./assets/roninUI.png" width="700" height="500" />
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML & CSS
+- Javascript
+- Webpack
+- React
+- Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo 
 
-### `npm test`
+Click [here](https://ronin-finance.netlify.app/) for the live demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Video presentation
 
-### `npm run build`
+[video](https://www.loom.com/share/de9aaebc85ec483994ef918a69575c41)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**To get a local copy up and running follow these simple example steps.**
 
-### `npm run eject`
+# Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Github flow knowledge. -Intermediate CSS, HTML and Javascript. -Installation of linter files. -install webpack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Setup 
+- To get a local copy follow these simple steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Clone Your Github Repository Follow these steps to clone your Clone Your Github Repository Follow these steps to clone my Github repo on Windows:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - Open Git Bash;
 
-## Learn More
+   - If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   - Go to the current directory where you want the cloned directory to be added;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+    $ cd '/c/Users/Documents/My Git Project'
 
-### Code Splitting
+    - Go to the page of the repository that you want to clone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - Click on “Clone or download” and copy the URL.
 
-### Analyzing the Bundle Size
+    - Use the git clone command along with the copied URL from earlier;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    - <code>$ git clone https://github.com/TracyMuso/Ronin-Finance</code>
 
-### Making a Progressive Web App
+   - Press Enter;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Tests and Configuration
 
-### Advanced Configuration
+To track linter errors locally follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Download all the dependencies run:
 
-### Deployment
+<code>
+npm install
+</code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Track HTML linter errors run:**
 
-### `npm run build` fails to minify
+<code>
+npx hint .
+</code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Track CSS linter errors run:**
+<code>
+npx stylelint "**/*.{css,scss}"
+</code>
+
+**Track JavaScript linter errors run:**
+
+<code>
+npx eslint .
+</code>
+
+# Usage
+- This can be used to track prices and performance of various cryptocurrencies
+
+# Install
+- Set up Github Actions
+- Create a react app
+- Set up linter > Lighthouse , Webhint ,Stylelint , Eslint.
+- Webpack bundle for javascript.
+- Jest for  testing
+
+## Author
+
+👤 **Tracy Musongole**
+
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
+- Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
+
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+
+Feel free to check the [issues page](https://github.com/TracyMuso/Ronin-Finance/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration was gotten from [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) in his [Ballhead App](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) template on Behance. Feel free to check it out!
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
