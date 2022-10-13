@@ -61,30 +61,20 @@ const Details = () => {
             {' '}
             {point.genesis_date}
           </li>
-          {point.market_data.price_change_percentage_24h < 0 ? (
-            <li className="name price">
-              Price Change 24h:
-              {' '}
-              <p className="red">
-                {point.market_data.price_change_percentage_24h.toFixed(2)}
-                %
-              </p>
-            </li>
-          ) : (
-            <li className="name price">
-              Price Change 24h:
-              {' '}
-              <p className="green">
-                {point.market_data.price_change_percentage_24h.toFixed(2)}
-                %
-              </p>
-            </li>
-          )}
+          <li className="name price">
+            Price Change 24h:
+            {' '}
+            <p className={`${point.market_data.price_change_percentage_24h < 0 ? 'red' : 'green'}`}>
+              {point.market_data.price_change_percentage_24h.toFixed(2)}
+              %
+            </p>
+          </li>
         </div>
         <footer>
           <p>Designed with love by Tracy</p>
           <span role="img" aria-label="heart">❤️</span>
           <span>copyright &#169; 2022</span>
+          {' '}
           <p>powered by CoinGecko</p>
         </footer>
       </div>
