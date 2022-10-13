@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-<img src="./assets/roninUI.png}" width="700" height="500" />
+<img src="./assets/roninUI.png" width="700" height="500" />
 
 ## Built With
 
@@ -16,7 +16,11 @@
 
 ## Live Demo 
 
-Live demo coming soon
+Click [here](https://ronin-finance.netlify.app/) for the live demo
+
+# Video presentation
+
+![video]()
 
 
 ## Getting Started
