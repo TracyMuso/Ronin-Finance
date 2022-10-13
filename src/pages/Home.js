@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <>
-      <header>
+      <div id="nav">
         <Navbar collapseOnSelect expand="lg" className="navbar">
           <NavLink to="/" className="logo">
             <h1>RF</h1>
@@ -22,15 +22,15 @@ const Home = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#features">About</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#pricing">Pricing</Nav.Link>
               <Nav.Link href="#deets">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </header>
-      <main>
-        <h1>Real time prices of the top 50 cryptocurrencies</h1>
+      </div>
+      <div id="cont">
+        <h1>Real time data of the top 50 cryptocurrencies</h1>
         <div id="stock-container">
           <>
             {points
@@ -61,7 +61,20 @@ const Home = () => {
               ))}
           </>
         </div>
-      </main>
+        <div id="about">
+          <h2>About</h2>
+          <p>
+            Welcome to Ronin Finance, this is a simple web  app that shows the
+            real time data of the top 50 cryptocurrencies. It consumes the
+            CoinGecko Api and with that, displays various real time data about
+            cryptocurrencies like the current price, price change, market cap etc. You
+            can also search for a specific cryptocurrency by name in the searchbar on top.
+            Once you click on the arrow, you will be redirected to a page that shows
+            more data about the cryptocurrency you clicked on. You can also navigate
+            back using another arrow.
+          </p>
+        </div>
+      </div>
       <footer>
         <p>Designed with love by Tracy</p>
         <span role="img" aria-label="heart">❤️</span>

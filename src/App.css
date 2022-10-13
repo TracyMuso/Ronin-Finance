@@ -12,9 +12,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+#nav {
   border-bottom: #a7a297;
   background-color: #ef9f9f;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .navbar {
@@ -22,7 +27,6 @@ header {
 }
 
 .logo {
-  padding: 0.5rem;
   margin: 0.5rem;
 }
 
@@ -72,6 +76,7 @@ i {
   color: #dbe9b7;
 }
 
+
 #stock-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,6 +101,11 @@ i {
 .coin-img {
   width: 2rem;
   height: 2rem;
+}
+
+#cont {
+  margin-top: 3rem;
+  padding-top: 4rem;
 }
 
 .red {
@@ -153,4 +163,20 @@ footer {
   padding: 2rem 1rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+#about {
+  width: 90%;
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: #ef9f9f;
+}
+
+#about h2 {
+  padding: 0.5rem;
+}
+
+#about p {
+  padding: 0.5rem;
+  margin: auto;
 }

@@ -114,7 +114,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
+- Inspiration was gotten from [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) in his [Ballhead App](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) template on Behance. Feel free to check it out!
 - etc
 
 ## 📝 License
