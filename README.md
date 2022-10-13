@@ -1,10 +1,10 @@
 ## Stock tracking app
 
-> Ronin-Finance is an app used to track major stocks, quotes and their movers. The user can search any stock they desire by region too. This can be used to look at how the stock market is performin live with data fetched from the financial modelling prep api.
+> Ronin-Finance is an app used to track the top 25 cryptocurrencies. The user can search any cryptothey desire and check out real time data.. This can be used to look at how the crypto market is performing live with data fetched from the [Coingecko API](https://www.coingecko.com/en/api).
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-<img src="./assets/Ronin-FinanceUI.png}" width="700" height="500" />
+<img src="./assets/roninUI.png}" width="700" height="500" />
 
 ## Built With
 
@@ -79,8 +79,7 @@ npx eslint .
 </code>
 
 # Usage
-- This can be used to make simple calculations
-- **NOTE**: The mobile version is currently unavailable.
+- This can be used to track prices and performance of various cryptocurrencies
 
 # Install
 - Set up Github Actions
